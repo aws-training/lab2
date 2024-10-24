@@ -9,8 +9,8 @@ phases:
   build:
     commands:
       - echo Building the Docker image...
-      - docker build -t mywebsiteforecs .
-      - docker tag mywebsiteforecs:latest 864899837235.dkr.ecr.ap-south-1.amazonaws.com/ravi/myrepo:latest
+      - docker build -t mywebsiteforecs1 .
+      - docker tag mywebsiteforecs1:latest 864899837235.dkr.ecr.ap-south-1.amazonaws.com/ravi/myrepo:latest
 
   post_build:
     commands:
